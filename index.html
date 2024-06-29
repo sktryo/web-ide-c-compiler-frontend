@@ -27,7 +27,7 @@
 
         function compileCode() {
             const code = window.editor.getValue();
-            fetch('https://<your-cloudflare-worker-url>/compile', {
+            fetch('https://2b344745-f148-478d-93c0-42c67bb1c536-00-nm0bz6woqsu4.sisko.replit.dev/compile', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ code })
